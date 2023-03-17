@@ -44,6 +44,12 @@ $ npm i -g @nestjs/cli
 $ docker-compose up -d
 ```
 
+## SEED
+
+```bashp
+get: http://localhost:3000/api/v2/seed
+```
+
 ## Running the app
 
 ```bash
