@@ -38,16 +38,15 @@ $ yarn install
 $ npm i -g @nestjs/cli
 ```
 
+## Environments
+
+- Clone file **.env.template** and rename to **.env**
+- Set value to environment variables
+
 ## Start database
 
 ```bashp
 $ docker-compose up -d
-```
-
-## SEED
-
-```bashp
-get: http://localhost:3000/api/v2/seed
 ```
 
 ## Running the app
@@ -61,6 +60,12 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
+```
+
+## SEED
+
+```bashp
+get: http://localhost:3000/api/v2/seed
 ```
 
 ## Test
