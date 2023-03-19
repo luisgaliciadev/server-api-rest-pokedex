@@ -87,6 +87,16 @@ $ yarn run test:cov
 - NodeJS
 - NestJS
 
+## Production Build
+
+- Create file `.env.prod`
+- Set value to environment prod variables
+- Make new image
+
+```bashp
+  docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
 ## Notes
 
 Heroku redeploy without changes:
