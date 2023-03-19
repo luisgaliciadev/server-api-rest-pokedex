@@ -86,3 +86,12 @@ $ yarn run test:cov
 - MongoDB
 - NodeJS
 - NestJS
+
+## Notes
+
+Heroku redeploy without changes:
+
+```bashp
+git commit --allow-empty -m "Tigger Heroku deploy"
+git push heroku <master|main>
+```
